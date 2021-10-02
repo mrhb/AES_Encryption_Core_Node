@@ -1,0 +1,16 @@
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.exe
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.deps.json
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.runtimeconfig.json
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.runtimeconfig.dev.json
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.dll
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\ref\cSharp.dll
+E:\Hajjar\JavascriptToken\cSharp\bin\Debug\net5.0\cSharp.pdb
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.csproj.AssemblyReference.cache
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.AssemblyInfoInputs.cache
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.AssemblyInfo.cs
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.csproj.CoreCompileInputs.cache
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.dll
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\ref\cSharp.dll
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.pdb
+E:\Hajjar\JavascriptToken\cSharp\obj\Debug\net5.0\cSharp.genruntimeconfig.cache
