@@ -6,9 +6,9 @@ namespace cSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
-            TokenHelper.Encrypt("dsfrgrgw","dfbserthsth");
+            var token=TokenHelper.Encrypt("dsfrgrgw","dfbserthsth");
+            Console.WriteLine("Hello ,Token is:" + token);
         }
     }
 }
