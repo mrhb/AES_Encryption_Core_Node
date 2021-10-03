@@ -4,7 +4,8 @@
   "description": "AES with JavaScript ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": " mocha test",
+    "test:watch": " mocha --watch --watch-files ./**/*.js,test/*.js test"
   },
   "repository": {
     "type": "git",

@@ -9,9 +9,9 @@ AES.Encrypt=(plainText,passPhrase)=>{
 
     salt = Buffer.from('salamMRezaHajjar');//crypto.randomBytes(16);
     iv =Buffer.from('salamMRezaHajjar');// crypto.randomBytes(16);
-    key = crypto.pbkdf2Sync(passPhrase, salt, 100000, 256/8, 'sha256');
+    key = crypto.pbkdf2Sync(passPhrase, salt, DerivationIterations, 128/8, 'sha1');
     
-    cipher = crypto.createCipheriv('aes-256-cbc', key, iv);
+    cipher = crypto.createCipheriv('aes-128-cbc', key, iv);
     
     cipher.write(plainText);
     cipher.end()
@@ -32,15 +32,16 @@ const salt_len = iv_len = 16;
 
 salt = encrypted.slice(0, salt_len);
 iv = encrypted.slice(0+salt_len, salt_len+iv_len);
-key = crypto.pbkdf2Sync(passPhrase, salt, 100000, 256/8, 'sha256');
 
-decipher = crypto.createDecipheriv('aes-256-cbc', key, iv);
+key = crypto.pbkdf2Sync(passPhrase, salt, DerivationIterations, 128/8,'sha1');
+
+decipher = crypto.createDecipheriv('aes-128-cbc', key, iv);
 
 decipher.write(encrypted.slice(salt_len+iv_len));
 decipher.end();
 
 decrypted = decipher.read();
-console.log(decrypted.toString());
+//console.log(decrypted.toString());
 return decrypted.toString();
 };
 
