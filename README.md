@@ -1,4 +1,4 @@
-# AES Encryption_Core_Node 
+# AES Encryption
 Encrypt in node js and decrypt it in dotNet Core and vice versa.
 ## Test
 Use snack.expo to [test](https://snack.expo.dev/@mrhbmrhb/aes_encryption) it.
